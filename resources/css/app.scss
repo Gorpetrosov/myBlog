@@ -1,2 +1,8 @@
+.showNavbarMenu {
+    display: block!important;
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "./partials/footer.scss";
+@import "./partials/navbar.scss";

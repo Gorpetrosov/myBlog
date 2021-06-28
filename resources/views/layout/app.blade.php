@@ -10,10 +10,11 @@
 </head>
 <body>
     <div class="container-fluid p-0">
-        @include('layout.notify')
-        @include('layout.follow')
-        @include('layout.navbar')
+{{--        @include('layout.partials.notify')--}}
+{{--        @include('layout.partials.follow')--}}
+        @include('layout.partials.navbar')
         @yield('body')
+        @extends('layout.partials.footer')
     </div>
     <script src="{{asset('js/app.js')}}"></script>
   @yield('js')
